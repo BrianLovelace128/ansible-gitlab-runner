@@ -51,6 +51,9 @@ gitlab_runner_container_install: false
 # default state to restart
 gitlab_runner_restart_state: restarted
 
+# default runner user for gitlab-runner install
+gitlab_runner_install_user: "{{ ansible_user }}"
+
 # default value for log_format
 # gitlab_runner_log_format: runner
 
