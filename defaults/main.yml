@@ -53,6 +53,7 @@ gitlab_runner_restart_state: restarted
 
 # default runner user for gitlab-runner install
 gitlab_runner_install_user: "{{ ansible_user }}"
+gitlab_runner_working_directory: "{{ ansible_env.HOME }}"
 
 # default value for log_format
 # gitlab_runner_log_format: runner
